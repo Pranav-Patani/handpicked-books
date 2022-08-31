@@ -177,7 +177,7 @@ function App() {
 
   const genres = Object.keys(bookDictionary);
 
-  let [currentGenre, setGenre] = useState(`Thriller`);
+  let [currentGenre, setGenre] = useState(`Romance`);
 
   function genreClickHandler(genre) {
     setGenre(genre);
