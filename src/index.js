@@ -18,6 +18,8 @@ function App() {
 
         imgFile: `images/me-before-you.jpeg`,
 
+        imgAlt: `me-before-you`,
+
         link: `https://www.jojomoyes.com/books/me-before-you/`,
 
         infoPara1: `Lou Clark knows lots of things. She knows how many footsteps there are between the bus stop and home. She knows she likes working in The Buttered Bun tea shop and she knows she might not love her boyfriend Patrick.`,
@@ -35,6 +37,8 @@ function App() {
         rating: `3/5`,
 
         imgFile: `images/after.jpg`,
+
+        imgAlt: `after`,
 
         link: `https://annatodd.com/books/after-2-2/`,
 
@@ -54,6 +58,8 @@ function App() {
 
         imgFile: `images/rush.jpg`,
 
+        imgAlt: `rush`,
+
         link: `https://mayabanks.com/series/breathless-trilogy/`,
 
         infoPara1: `This series follows three billionaires—Gabe Hamilton, Jace Crestwell and Ash McIntyre—who are best friends and business partners.`,
@@ -71,6 +77,8 @@ function App() {
         rating: `3/5`,
 
         imgFile: `images/the-fault-in-our-stars.jpeg`,
+
+        imgAlt: `the-fault-in-our-stars`,
 
         link: `https://www.johngreenbooks.com/the-fault-in-our-stars`,
 
@@ -92,6 +100,8 @@ function App() {
 
         imgFile: `images/life-of-pi.jpg`,
 
+        imgAlt: `life-of-pi`,
+
         link: `https://www.goodreads.com/book/show/4214.Life_of_Pi`,
 
         infoPara1: `Life of Pi is a fantasy adventure novel by Yann Martel published in 2001.`,
@@ -108,6 +118,8 @@ function App() {
 
         imgFile: `images/demon-road.webp`,
 
+        imgAlt: `demon-road`,
+
         link: `https://skulduggery.fandom.com/wiki/Demon_Road_(series)`,
 
         infoPara1: `The series follows a 16 year old girl named Amber who discovers she is a demon and has the ability to transform into an enhanced monster like state.`,
@@ -123,6 +135,8 @@ function App() {
         rating: `3/5`,
 
         imgFile: `images/skulduggery-pleasant.jpg`,
+
+        imgAlt: `skulduggery-pleasant`,
 
         link: `https://www.skulduggerypleasant.co.uk/book/skulduggery-pleasant/`,
 
@@ -141,6 +155,8 @@ function App() {
         rating: `3/5`,
 
         imgFile: `images/young-samurai.jpeg`,
+
+        imgAlt: `young-samurai`,
 
         link: `https://www.chrisbradford.co.uk/young-samurai-series/1-the-way-of-the-warrior.html`,
 
@@ -161,6 +177,8 @@ function App() {
         rating: `3/5`,
 
         imgFile: `images/the-soul-breaker.jpg`,
+
+        imgAlt: `the-soul-breaker`,
 
         link: `https://www.goodreads.com/book/show/57111216-the-soul-breaker`,
 
@@ -215,7 +233,7 @@ function App() {
               <li key={books.name} className="book-card">
                 <div className="book-flex">
                   <a href={books.link} target="blank">
-                    <img className="book-image" src={books.imgFile} />
+                    <img className="book-image" src={books.imgFile} alt={books.imgAlt}/>
                   </a>
                   <div className="book-info-paras">
                     <p className="book-info">{books.infoPara1}</p>
