@@ -1,9 +1,98 @@
+:root {
+  --primary-color: #be123c;
+  --text-color-light: #fff1f2;
+  --gradient-darker: rgb(190, 18, 60);
+  --gradient-light: rgb(244, 63, 94);
+  --gradient-dark: rgb(225, 29, 72);
+  --gradient-lighter: rgb(251, 113, 133);
+  --link-color: #fda4af;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-image: linear-gradient(
+    var(--gradient-darker),
+    var(--gradient-light)
+  );
+  text-rendering: optimizeLegibility;
+  font-size: 17px;
+  line-height: 150%;
+  color: var(--text-color-light);
 }
 
 .App {
   text-align: center;
+}
+
+/*Heading*/
+
+.heading {
+  display: flex;
+  justify-content: center;
+}
+
+.svg-book {
+  max-width: 3rem;
+  margin: 0.7rem;
+}
+
+/*Book Library*/
+
+/*Library Navigation*/
+
+.buttons {
+  padding: 0.7rem;
+  margin: 1rem;
+  border: 1px solid black;
+  border-radius: 0.7rem;
+  cursor: pointer;
+}
+
+/*Recommendation Section*/
+
+.book-recommendations {
+  border-radius: 2rem;
+  width: 80%;
+  margin: 1rem auto;
+  padding: 2rem;
+  background-image: linear-gradient(
+    var(--gradient-dark),
+    var(--gradient-darker)
+  );
+}
+
+.book-card {
+  border-radius: 1rem;
+  list-style: none;
+  margin: 1rem auto;
+  padding: 2rem;
+  width: 85%;
+  background-color: var(--gradient-light);
+  text-align: left;
+  color: var(--text-color-light);
+  font-weight: bold;
+}
+
+.book-flex {
+  display: flex;
+}
+
+.book-image {
+  height: 65vh;
+  display: inline;
+  margin-right: 4rem;
+}
+
+.book-info-paras {
+  display: flex;
+  flex-direction: column;
+}
+
+.book-know-more {
+  text-decoration: none;
+  color: var(--link-color);
+  font-style: italic;
+  font-weight: bolder;
 }
