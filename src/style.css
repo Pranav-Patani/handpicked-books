@@ -10,6 +10,7 @@
   --link-color: #fda4af;
   --button-color: #fda4af;
   --button-border: #fb7185;
+  --button-text-color: #881337;
 }
 
 body {
@@ -59,7 +60,7 @@ body {
   background-color: var(--button-color);
   font-family: "Montserrat", sans-serif;
   font-weight: bolder;
-  color: #881337;
+  color: var(--button-text-color);
 }
 
 /*Recommendation Section*/
