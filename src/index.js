@@ -210,9 +210,7 @@ function App() {
       <div className="book-library">
         <div className="library-navigation">
           <div className="button-container">
-            <p>
-              You can select your preffered genre from below
-            </p>
+            <p>You can select your preffered genre from below</p>
             {genres.map((genre) => {
               return (
                 <button
@@ -232,8 +230,12 @@ function App() {
             return (
               <li key={books.name} className="book-card">
                 <div className="book-flex">
-                  <a href={books.link} target="blank">
-                    <img className="book-image" src={books.imgFile} alt={books.imgAlt}/>
+                  <a href={books.link} target="_blank_">
+                    <img
+                      className="book-image"
+                      src={books.imgFile}
+                      alt={books.imgAlt}
+                    />
                   </a>
                   <div className="book-info-paras">
                     <p className="book-info">{books.infoPara1}</p>
@@ -263,9 +265,13 @@ function App() {
       </div>
 
       <footer className="footer">
-          <h3>About</h3>
-          <p>Welcome to the Handpicked Books. This is a web-app that recommend books according to the chosen genre. If you love reading books, you should definetly give these books a try.</p>
-          <p>Happy Reading!</p>
+        <h3>About</h3>
+        <p>
+          Welcome to the Handpicked Books. This is a web-app that recommend
+          books according to the chosen genre. If you love reading books, you
+          should definetly give these books a try.
+        </p>
+        <p>Happy Reading!</p>
       </footer>
     </div>
   );
