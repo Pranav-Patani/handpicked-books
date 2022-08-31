@@ -6,6 +6,8 @@
   --gradient-dark: rgb(225, 29, 72);
   --gradient-lighter: rgb(251, 113, 133);
   --link-color: #fda4af;
+  --button-color: #fda4af;
+  --button-border: #fb7185;
 }
 
 body {
@@ -31,6 +33,11 @@ body {
 .heading {
   display: flex;
   justify-content: center;
+  background-image: linear-gradient(
+    var(--gradient-dark),
+    var(--gradient-darker)
+  );
+  padding: 2rem;
 }
 
 .svg-book {
@@ -41,13 +48,13 @@ body {
 /*Book Library*/
 
 /*Library Navigation*/
-
 .buttons {
   padding: 0.7rem;
   margin: 1rem;
-  border: 1px solid black;
+  border: 1px solid var(--button-border);
   border-radius: 0.7rem;
   cursor: pointer;
+  background-color: var(--button-color);
 }
 
 /*Recommendation Section*/
@@ -55,7 +62,7 @@ body {
 .book-recommendations {
   border-radius: 2rem;
   width: 80%;
-  margin: 1rem auto;
+  margin: 0 auto;
   padding: 2rem;
   background-image: linear-gradient(
     var(--gradient-dark),
@@ -95,4 +102,20 @@ body {
   color: var(--link-color);
   font-style: italic;
   font-weight: bolder;
+}
+
+/**Footer**/
+
+.footer {
+  background-image: linear-gradient(
+    var(--gradient-dark),
+    var(--gradient-darker)
+  );
+  padding: 1rem;
+  margin-top: 1.5rem;
+}
+
+.footer p {
+  max-width: 60%;
+  margin: 1rem auto;
 }

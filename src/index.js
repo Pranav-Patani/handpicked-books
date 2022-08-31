@@ -191,20 +191,22 @@ function App() {
       </div>
       <div className="book-library">
         <div className="library-navigation">
-          <p className="nav-heading">
-            You can select your preffered genre from below
-          </p>
-          {genres.map((genre) => {
-            return (
-              <button
-                key={genre}
-                className="buttons"
-                onClick={() => genreClickHandler(genre)}
-              >
-                {genre}
-              </button>
-            );
-          })}
+          <div className="button-container">
+            <p>
+              You can select your preffered genre from below
+            </p>
+            {genres.map((genre) => {
+              return (
+                <button
+                  key={genre}
+                  className="buttons"
+                  onClick={() => genreClickHandler(genre)}
+                >
+                  {genre}
+                </button>
+              );
+            })}
+          </div>
         </div>
 
         <div className="book-recommendations">
@@ -241,6 +243,12 @@ function App() {
           })}
         </div>
       </div>
+
+      <footer className="footer">
+          <h3>About</h3>
+          <p>Welcome to the Handpicked Books. This is a web-app that recommend books according to the chosen genre. If you love reading books, you should definetly give these books a try.</p>
+          <p>Happy Reading!</p>
+      </footer>
     </div>
   );
 }
