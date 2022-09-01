@@ -14,7 +14,7 @@ function App() {
       {
         name: `Me Before You`,
 
-        rating: `3/5`,
+        rating: `4/5`,
 
         imgFile: `images/me-before-you.jpeg`,
 
@@ -34,7 +34,7 @@ function App() {
       {
         name: `After Series`,
 
-        rating: `3/5`,
+        rating: `4.5/5`,
 
         imgFile: `images/after.jpg`,
 
@@ -54,7 +54,7 @@ function App() {
       {
         name: `The Breathless Triology Series`,
 
-        rating: `3/5`,
+        rating: `4/5`,
 
         imgFile: `images/rush.jpg`,
 
@@ -74,7 +74,7 @@ function App() {
       {
         name: `The Fault In Our Stars`,
 
-        rating: `3/5`,
+        rating: `4/5`,
 
         imgFile: `images/the-fault-in-our-stars.jpeg`,
 
@@ -96,7 +96,7 @@ function App() {
       {
         name: `Life Of Pi`,
 
-        rating: `3/5`,
+        rating: `3.5/5`,
 
         imgFile: `images/life-of-pi.jpg`,
 
@@ -112,19 +112,61 @@ function App() {
       },
 
       {
-        name: `Demon Road Series`,
+        name: `Young Samurai Series`,
 
-        rating: `3/5`,
+        rating: `4/5`,
 
-        imgFile: `images/demon-road.webp`,
+        imgFile: `images/young-samurai.jpeg`,
 
-        imgAlt: `demon-road`,
+        imgAlt: `young-samurai`,
 
-        link: `https://skulduggery.fandom.com/wiki/Demon_Road_(series)`,
+        link: `https://www.chrisbradford.co.uk/young-samurai-series/1-the-way-of-the-warrior.html`,
 
-        infoPara1: `The series follows a 16 year old girl named Amber who discovers she is a demon and has the ability to transform into an enhanced monster like state.`,
+        infoPara1: `Jack Fletcher is shipwrecked off the coast of Japan - his beloved father and the crew lie slaughtered by ninja pirates.`,
 
-        infoPara2: ` It follows her as she is chased across the US by her parents (who are demons as well. )who want to eat her and then later...`,
+        infoPara2: `Rescued by the legendary sword master Masamoto Takeshi, Jack's only hope is to become a samurai warrior. And so his training begins...`,
+
+        infoPara3: `But life at the samurai school is a constant fight for survival. Even with his friend Akiko by his side, Jack is singled out by bullies and treated as an outcast.`,
+
+        infoPara4: `With courage in his heart and his sword held high, can Jack prove himself and face his deadliest rival yet?`,
+      },
+      {
+        name: `Red, White and Royal Blue`,
+
+        rating: `4.5/5`,
+
+        imgFile: `images/red-white-and-royal-blue.jpg`,
+
+        imgAlt: `red-white-and-royal-blue`,
+
+        link: `https://www.caseymcquiston.com/red-white-royal-blue`,
+
+        infoPara1: `First Son Alex Claremont-Diaz is the closest thing to a prince this side of the Atlantic. With his intrepid sister and the Veep's genius granddaughter, they're the White House Trio, a beautiful millennial marketing strategy for his mother, President Ellen Claremont.`,
+
+        infoPara2: `International socialite duties do have downsides—namely, when photos of a confrontation with his longtime nemesis Prince Henry at a royal wedding leak to the tabloids and threaten American/British relations.`,
+
+        infoPara3: `The plan for damage control: staging a fake friendship between the First Son and the Prince.`,
+
+        infoPara4: `Alex is busy enough handling his mother's bloodthirsty opponents and his own political ambitions without...`,
+      },
+      {
+        name: `This is how it always is`,
+
+        rating: `3.5/5`,
+
+        imgFile: `images/this-is-how-it-always-is.jpg`,
+
+        imgAlt: `this-is-how-it-always-is`,
+
+        link: `https://www.lauriefrankel.net/this-is-how-it-always-is.html`,
+
+        infoPara1: `This is how a family keeps a secret...and how that secret ends up keeping them.`,
+
+        infoPara2: `This is how a family lives happily ever after…until happily ever after becomes complicated. This is how children change…and then change the world.`,
+
+        infoPara3: ` When Rosie and Penn and their four boys welcome the newest member of their family, no one is surprised it's another baby boy. But at least their large, loving, chaotic family knows what to expect.`,
+
+        infoPara4: ` But Claude is not like his brothers. One day he puts on a dress and refuses to take it off. He wants...`,
       },
     ],
 
@@ -132,7 +174,7 @@ function App() {
       {
         name: `Skulduggery Pleasant Series`,
 
-        rating: `3/5`,
+        rating: `5/5`,
 
         imgFile: `images/skulduggery-pleasant.jpg`,
 
@@ -150,23 +192,57 @@ function App() {
       },
 
       {
-        name: `Young Samurai Series`,
+        name: `Demon Road Series`,
 
-        rating: `3/5`,
+        rating: `4/5`,
 
-        imgFile: `images/young-samurai.jpeg`,
+        imgFile: `images/demon-road.webp`,
 
-        imgAlt: `young-samurai`,
+        imgAlt: `demon-road`,
 
-        link: `https://www.chrisbradford.co.uk/young-samurai-series/1-the-way-of-the-warrior.html`,
+        link: `https://skulduggery.fandom.com/wiki/Demon_Road_(series)`,
 
-        infoPara1: `Jack Fletcher is shipwrecked off the coast of Japan - his beloved father and the crew lie slaughtered by ninja pirates.`,
+        infoPara1: `The series follows a 16 year old girl named Amber who discovers she is a demon and has the ability to transform into an enhanced monster like state.`,
 
-        infoPara2: `Rescued by the legendary sword master Masamoto Takeshi, Jack's only hope is to become a samurai warrior. And so his training begins...`,
+        infoPara2: `It follows her as she is chased across the US by her parents (who are demons as well. )who want to eat her and then later...`,
+      },
+      {
+        name: `Heartless`,
 
-        infoPara3: `But life at the samurai school is a constant fight for survival. Even with his friend Akiko by his side, Jack is singled out by bullies and treated as an outcast. `,
+        rating: `4.5/5`,
 
-        infoPara4: `With courage in his heart and his sword held high, can Jack prove himself and face his deadliest rival yet?`,
+        imgFile: `images/heartless.jpg`,
+
+        imgAlt: `heartless`,
+
+        link: `https://www.marissameyer.com/heartless/`,
+
+        infoPara1: `Long before she was the terror of Wonderland — the infamous Queen of Hearts — she was just a girl who wanted to fall in love.`,
+
+        infoPara2: `Catherine may be one of the most adored girls in Wonderland, and a favorite of the yet-unmarried King of Hearts, but her interests lie elsewhere. A talented baker, all she wants is to open a shop with her best friend and supply the Kingdom of Hearts with delectable pastries and confections.`,
+
+        infoPara3: `But according to her mother, such a goal is unthinkable for the young woman who could be the next Queen.`,
+
+        infoPara4: `At a royal ball where Cath is expected to receive the king's marriage proposal, she meets Jest, the handsome and mysterious court joker... `,
+      },
+      {
+        name: `The Iron King`,
+
+        rating: `4/5`,
+
+        imgFile: `images/the-iron-king.jpg`,
+
+        imgAlt: `the-iron-king`,
+
+        link: `http://juliekagawa.com/?page_id=130`,
+
+        infoPara1: `Meghan Chase has a secret destiny—one she could never have imagined…`,
+
+        infoPara2: `Something has always felt slightly off in Meghan's life, ever since her father disappeared before her eyes when she was six. She has never quite fit in at school…or at home.`,
+
+        infoPara3: `When a dark stranger begins watching her from afar and her prankster best friend becomes strangely protective of her, Meghan senses that everything she's known is about to change. But she could never have guessed the truth.`,
+
+        infoPara4: `For Meghan is the daughter of a mythical faery king…and a pawn in a deadly war. Now Meghan will...`,
       },
     ],
 
@@ -174,7 +250,7 @@ function App() {
       {
         name: `The Soul Breaker`,
 
-        rating: `3/5`,
+        rating: `4/5`,
 
         imgFile: `images/the-soul-breaker.jpg`,
 
@@ -189,6 +265,66 @@ function App() {
         infoPara3: `There are three known victims when suddenly the abductions stop. The Soul Breaker has tired of his game, it seems.`,
 
         infoPara4: `Meanwhile, a man has been found in the snow outside an exclusive psychiatric clinic. He has no recollection of who he is, or why he is there. Unable to match him to any of the police's missing people, the nurses call him Casper...`,
+      },
+
+      {
+        name: `The Turn Of The Key`,
+
+        rating: `3.5/5`,
+
+        imgFile: `images/the-turn-of-the-key.jpg`,
+
+        imgAlt: `the-turn-of-the-key`,
+
+        link: `https://ruthware.com/books/the-turn-of-the-key/`,
+
+        infoPara1: `Their dream house will become her worst nightmare…`,
+
+        infoPara2: `When she stumbles across the advert, she' looking for something else completely. But it seems like too good an opportunity to miss: a live-in nanny position, with a staggeringly generous salary.`,
+
+        infoPara3: `And when Rowan arrives at Heatherbrae House, she is smitten by the luxurious 'smart' home fitted out with all modern conveniences, by the beautiful Scottish Highlands, and by this picture-perfect family.`,
+
+        infoPara4: `What she doesn't know is that she's stepping into a nightmare - one that will end with a child dead and her in a cell awaiting trial for murder...`,
+      },
+
+      {
+        name: `No Exit`,
+
+        rating: `3/5`,
+
+        imgFile: `images/no-exit.jpg`,
+
+        imgAlt: `no-exit`,
+
+        link: `https://tayloradamsauthor.com/books/`,
+
+        infoPara1: `A brilliant, edgy thriller about four strangers, a blizzard, a kidnapped child, and a determined young woman desperate to unmask and outwit a vicious psychopath.`,
+
+        infoPara2: `A kidnapped little girl locked in a stranger's van. No help for miles. What would you do?`,
+
+        infoPara3: `On her way to Utah to see her dying mother, college student Darby Thorne gets caught in a fierce blizzard in the mountains of Colorado. With the roads impassable, she's forced to wait out the storm at a remote highway rest stop. Inside are some vending machines, a coffee maker, and four complete strangers.`,
+
+        infoPara4: `Desperate to find a signal to call home, Darby goes back out into the storm...`,
+      },
+
+      {
+        name: `Verity`,
+
+        rating: `4.5/5`,
+
+        imgFile: `images/verity.jpg`,
+
+        imgAlt: `verity`,
+
+        link: `https://www.colleenhoover.com/portfolio/verity/`,
+
+        infoPara1: `Lowen Ashleigh is a struggling writer on the brink of financial ruin when she accepts the job offer of a lifetime. Jeremy Crawford, husband of bestselling author Verity Crawford, has hired Lowen to complete the remaining books in a successful series his injured wife is unable to finish.`,
+
+        infoPara2: `Lowen arrives at the Crawford home, ready to sort through years of Verity's notes and outlines, hoping to find enough material to get her started.`,
+
+        infoPara3: `What Lowen doesn't expect to uncover in the chaotic office is an unfinished autobiography Verity never intended for anyone to read.`,
+
+        infoPara4: `Page after page of bone-chilling admissions, including Verity's recollection of...`,
       },
     ],
   };
