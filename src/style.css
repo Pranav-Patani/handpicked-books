@@ -22,9 +22,15 @@ body {
     var(--gradient-light)
   );
   text-rendering: optimizeLegibility;
-  font-size: 17px;
-  line-height: 150%;
+  font-size: 18px;
+  line-height: 1.7;
   color: var(--text-color-light);
+}
+
+@media only screen and (max-width: 400px) {
+  body {
+    font-size: 16.5px;
+  }
 }
 
 .App {
@@ -88,14 +94,40 @@ body {
   font-weight: bold;
 }
 
+@media only screen and (max-width: 678px) {
+  .book-recommendations {
+    width: 100%;
+    padding: 0.5rem 0;
+    border-radius: 0;
+  }
+
+  .book-card {
+    width: 90%;
+    padding: 1.8rem 1rem;
+  }
+}
+
 .book-flex {
   display: flex;
+}
+
+@media only screen and (max-width: 900px) {
+  .book-flex {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 .book-image {
   height: 65vh;
   display: inline;
   margin-right: 4rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .book-image {
+    margin-right: 0;
+  }
 }
 
 .book-info-paras {
@@ -122,6 +154,24 @@ body {
 }
 
 .footer p {
-  max-width: 60%;
+  width: 60%;
   margin: 1rem auto;
+}
+
+@media only screen and (max-width: 884px) {
+  .footer p {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 553px) {
+  .footer p {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .footer p {
+    width: 100%;
+  }
 }
