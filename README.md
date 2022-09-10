@@ -18,4 +18,5 @@ You can either click on the **image** or the **_"know more"_** written just belo
 
 ![book list item](public/images/recommendation.png)
 
+***
 #### Happy Reading!
